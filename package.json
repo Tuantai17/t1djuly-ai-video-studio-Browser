@@ -1,0 +1,41 @@
+{
+  "name": "sesame-studio",
+  "productName": "Sesame Studio",
+  "version": "1.0.0",
+  "description": "Sesame Studio — bộ công cụ video AI: tạo cảnh, prompt đồng bộ, ghép/chỉnh sửa, cắt video, đọc giọng.",
+  "main": "main.js",
+  "author": "Nguyen Tuan Tai",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.sesamestudio.app",
+    "productName": "Sesame Studio",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "ui/assets/sesame_icon.ico"
+    },
+    "extraResources": [
+      {
+        "from": "bin",
+        "to": "bin",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ]
+  },
+  "devDependencies": {
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8"
+  }
+}

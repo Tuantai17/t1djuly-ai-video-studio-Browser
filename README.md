@@ -3,7 +3,6 @@
 [![Node.js](https://img.shields.io/badge/Node.js-v20%2B-green.svg)](https://nodejs.org/)
 [![Electron](https://img.shields.io/badge/Electron-v33-blue.svg)](https://www.electronjs.org/)
 [![License](https://img.shields.io/badge/License-MIT%20%2F%20Custom-orange.svg)](#)
-[![Author](https://img.shields.io/badge/Author-Nguyen%20Tuan%20Tai-purple.svg)](https://github.com/Tuantai17)
 
 **t1djuly AI Video Studio** là ứng dụng desktop toàn diện xây dựng trên nền tảng **Electron** kết hợp **Chrome DevTools Protocol (CDP)**, cung cấp giải pháp trọn gói từ khâu soạn kịch bản, tự động hóa render video trên các nền tảng AI hàng đầu, biên tập timeline, lồng tiếng AI đa giọng đọc và xuất bản video ngắn tự động.
 
@@ -113,9 +112,3 @@ File cài đặt sẽ được tạo tự động trong thư mục `dist/`.
   $env:SESAME_DEBUG_PORT="9226"; npm start
   ```
 
----
-
-## 👤 Tác Giả & Bản Quyền
-
-- **Tác giả dự án**: **Nguyen Tuan Tai** ([@Tuantai17](https://github.com/Tuantai17))
-- **Mã nguồn**: Được phát triển và hoàn thiện cho cộng đồng sáng tạo nội dung video AI.
